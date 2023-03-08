@@ -1,3 +1,8 @@
 print("Hello World")
-x = input("Enter age: ")
-print("Hahah", x)
+x = int(input("Enter age: "))
+
+if x >= 18:
+    print('You are old')
+
+else:
+    print("You are small")
